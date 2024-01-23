@@ -7,6 +7,7 @@ Link del challenge.</p>
 <h2>Analizamos los datos</h2>
 <p>Analizamos los datos importados y realizamos una búsqueda de anomalías como datos faltantes, errores tipográficos, etc.</p>
 <h3>Analizamos el dataframe de libros</h3>
+
 ![image](https://github.com/pabloing93/book-recommendations-engine/assets/32267303/3a70d468-8822-460f-ae2b-40200eb32cd8)
 
 <p>Conclusión: No encontramos duplicados, ni nulos y tampoco anomalías en cuanto a la estructura y tipo de datos del dataframe</p>

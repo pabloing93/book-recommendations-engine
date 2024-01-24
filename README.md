@@ -1,16 +1,31 @@
-<h1>Motor de recomendación 📚</h1>
+<h1>Motor de recomendaciones 📚</h1>
 
-<p>Éste proyecto es un challenge de FreeCodeCamp para modelos de Machine Leargnin de Clustering.<br>
-Link del challenge.</p>
+> [!NOTE]
+> Éste proyecto es un challenge de FreeCodeCamp para modelos de <b>Machine Leargnin</b> de <b>Clustering</b>. <br>
+> Desarrollado con mucho amor :love_letter: como aporte a la comunidad de científico de datos ya que <br>
+> a la fecha se encuentra muy poca documentación sobre éste challenge en particular.
 
-<h2>Importamos librerías y datos</h2>
+> [!CAUTION]
+> Utilizar con fines educativos :octocat:
+
+ [Link al challenge](https://www.freecodecamp.org/learn/machine-learning-with-python/machine-learning-with-python-projects/book-recommendation-engine-using-knn)
+
+<h2>Stack de tecnologías</h2>
+
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
+
+![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+
+
+
+
 <h2>Analizamos los datos</h2>
 <p>Analizamos los datos importados y realizamos una búsqueda de anomalías como datos faltantes, errores tipográficos, etc.</p>
 <h3>Analizamos el dataframe de libros</h3>
 
 ![image](https://github.com/pabloing93/book-recommendations-engine/assets/32267303/3a70d468-8822-460f-ae2b-40200eb32cd8)
 
-<p>Conclusión: No encontramos duplicados, ni nulos y tampoco anomalías en cuanto a la estructura y tipo de datos del dataframe</p>
+- [x] <b>Conclusión:</b> No encontramos duplicados, ni nulos y tampoco anomalías en cuanto a la estructura y tipo de datos del dataframe
 
 <h3>Analizamos el dataframe de ratings</h3>
 
@@ -24,11 +39,12 @@ Link del challenge.</p>
 
 ![image](https://github.com/pabloing93/book-recommendations-engine/assets/32267303/ce18da52-e406-4070-85bd-e92eccd36b30)
 
-<p>Conclusión: No encontramos valores anómalos, negativos ni mayores a 10, en la columnas de rating.</p>
+Conclusión: No encontramos valores anómalos, negativos ni mayores a 10, en la columnas de rating.
 
 <h2>EDA: Análisis exploratorio de los datos</h2>
 
-(insertar imagen aquí)
+![image](https://github.com/pabloing93/book-recommendations-engine/assets/32267303/4153671d-0bf2-4e4e-9548-00c3c71800e5)
+
 
 <p>Concluimos que hay información de libros que tienen muy pocas recomendaciones al igual que usuarios que recomendaron pocos libros. Vamos a limpiar estos datos para obtener información más significativa</p>
 

@@ -8,7 +8,6 @@
 > [!CAUTION]
 > Utilizar con fines educativos :octocat:
 
- [Link al challenge](https://www.freecodecamp.org/learn/machine-learning-with-python/machine-learning-with-python-projects/book-recommendation-engine-using-knn)
 
 <h2>Stack de tecnologías</h2>
 
@@ -86,9 +85,13 @@ Paso 3: Creamos una función de recomendación para testear nuestro modelo
 
 <h3>Ejecutamos la función</h3>
 
-<p>test_book_recommendation()</p>
+<table><tr><td> > test_book_recommendation()</td></tr></table>
 
-<p>["Where the Heart Is (Oprah's Book Club (Paperback))", [["I'll Be Seeing You", 0.8], ['The Weight of Water', 0.77], ['The Surgeon', 0.77], ['I Know This Much Is True', 0.77], ['The Lovely Bones: A Novel', 0.72]]]
-You passed the challenge! 🎉🎉🎉🎉🎉</p>
+<h4>Resultado</h4>
 
+<table><tr><td> > ["Where the Heart Is (Oprah's Book Club (Paperback))", [["I'll Be Seeing You", 0.8], ['The Weight of Water', 0.77], ['The Surgeon', 0.77], ['I Know This Much Is True', 0.77], ['The Lovely Bones: A Novel', 0.72]]] </td></tr></table>
+
+<table><tr><td> > You passed the challenge! 🎉🎉🎉🎉🎉</td></tr></table>
+
+[Link al código](https://github.com/pabloing93/book-recommendations-engine/blob/main/book_recommendation.ipynb)
 

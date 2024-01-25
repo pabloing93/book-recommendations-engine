@@ -71,9 +71,24 @@
 
 <h2>Implementamos nuestro modelo de Machine Learning</h2>
 
-Paso 1: armamos nuestra matriz de pivot <br>
-Paso 2: Entrenamos nuestro modelo <br>
-Paso 3: Creamos una función de recomendación para testear nuestro modelo
+<h3>Armamos una matriz de pivot</h3>
+
+<p>Esta matriz de pivot representa por cada libro (filas) qué usuarios (columnas) dieron una puntuación y de cuánto fué la puntuación (valor)</p>
+
+![image](https://github.com/pabloing93/book-recommendations-engine/assets/32267303/1ea75f48-7fa5-4cc4-b6a9-9fd9b95eaf3c)
+
+<h3>Entrenamos nuestro modelo de Machine Learning</h3>
+
+<p>El modelo entrenado es KNN</p>
+
+<h3> Creamos la función de recomendación </h3>
+
+<table><tr><td> > def <b>test_book_recommendation(</b> book_name: string <b>)</b> -> list </td></tr></table>
+
+<h3>Ejecutamos la fucnión de recomendación</h3>
+
+![image](https://github.com/pabloing93/book-recommendations-engine/assets/32267303/7889f3be-08fc-4caf-86af-7348b967c166)
+
 
 <h2>Testeamos nuestro modelo</h2>
 
@@ -83,11 +98,11 @@ Paso 3: Creamos una función de recomendación para testear nuestro modelo
 
 ![image](https://github.com/pabloing93/book-recommendations-engine/assets/32267303/04a7e292-712f-476d-846d-6ce22d19468a)
 
-<h3>Ejecutamos la función</h3>
+<h3>Ejecutamos la función de TEST</h3>
 
 <table><tr><td> > test_book_recommendation()</td></tr></table>
 
-<h4>Resultado</h4>
+<h3>Resultado</h3>
 
 <table><tr><td> > ["Where the Heart Is (Oprah's Book Club (Paperback))", [["I'll Be Seeing You", 0.8], ['The Weight of Water', 0.77], ['The Surgeon', 0.77], ['I Know This Much Is True', 0.77], ['The Lovely Bones: A Novel', 0.72]]] </td></tr></table>
 

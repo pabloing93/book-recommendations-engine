@@ -35,18 +35,19 @@
 
 ![image](https://github.com/pabloing93/book-recommendations-engine/assets/32267303/94ffc8e3-806b-496b-9400-cfb3cc66ab31)
 
-<p>Conclusión: No encontramos valores anómalos, negativos, en la columna user.</p>
+- [x] <b>Conclusión:</b> No encontramos valores anómalos, negativos, en la columna user.
 
 ![image](https://github.com/pabloing93/book-recommendations-engine/assets/32267303/ce18da52-e406-4070-85bd-e92eccd36b30)
 
-Conclusión: No encontramos valores anómalos, negativos ni mayores a 10, en la columnas de rating.
+- [x] <b>Conclusión:</b> No encontramos valores anómalos, negativos ni mayores a 10, en la columnas de rating.
 
 <h2>EDA: Análisis exploratorio de los datos</h2>
 
 ![image](https://github.com/pabloing93/book-recommendations-engine/assets/32267303/4153671d-0bf2-4e4e-9548-00c3c71800e5)
 
-
-<p>Concluimos que hay información de libros que tienen muy pocas recomendaciones al igual que usuarios que recomendaron pocos libros. Vamos a limpiar estos datos para obtener información más significativa</p>
+> [!WARNING]
+> Encontramos que hay información de libros que tienen muy pocas recomendaciones al igual que usuarios que recomendaron pocos libros.
+> Vamos a limpiar estos datos para obtener información más significativa.
 
 <h3>Eliminamos todos los libros que tengan menos de 100 calificaciones</h3>
 
@@ -57,7 +58,7 @@ Conclusión: No encontramos valores anómalos, negativos ni mayores a 10, en la 
 ![image](https://github.com/pabloing93/book-recommendations-engine/assets/32267303/7fe5f33f-d354-43a7-9ed4-1135b9b83a71)
 
 
-<p>Como conclusión observamos que de 27.000 libros sólo 727 de ellos tenían suficientes calificaciones</p>
+- [x] <b>Conclusión:</b> observamos que de 27.000 libros sólo 727 de ellos tenían suficientes calificaciones
 
 <h3>Eliminamos todos los usuarios que hayan hecho menos de 200 calificaciones</h3>
 
